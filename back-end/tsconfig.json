@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018", // or whichever target version you prefer
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist", // specify an output directory for transpiled files
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"] // adjust the paths as per your project structure
+    }
+  },
+  "include": ["src/**/*", "app.ts"], // adjust the path as per your project structure
+  "exclude": ["node_modules"]
+}
