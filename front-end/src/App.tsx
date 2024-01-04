@@ -1,13 +1,13 @@
-import './App.css'
+import React, { FC } from 'react';
+import './App.css';
+import Hello from './components/hello'
 
-function App() {
- 
-
+const App: FC = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <Hello />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
