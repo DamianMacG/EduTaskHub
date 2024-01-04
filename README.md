@@ -1,3 +1,0 @@
-## React & Typescript
-
-Hello World!
